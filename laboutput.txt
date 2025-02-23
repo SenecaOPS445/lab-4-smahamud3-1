@@ -1,0 +1,26 @@
+test_0 (__main__.lab4a.test_0)
+[Lab 4] - [Investigation 1] - [Part 2] - Data Structures - Test for file creation: ./lab4a.py ... FAIL
+
+======================================================================
+FAIL: test_0 (__main__.lab4a.test_0)
+[Lab 4] - [Investigation 1] - [Part 2] - Data Structures - Test for file creation: ./lab4a.py
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/smahamud3/ops445/lab4/lab-4-smahamud3/./CheckLab4.py", line 39, in test_0
+    self.assertTrue(os.path.exists('./lab4a.py'), msg=error_output)
+AssertionError: False is not true : your file cannot be found(HINT: make sure you AND your file are in the correct directory)
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)
+OPS445 Lab Report - System Information for running ./CheckLab4.py
+=================================================================
+    User login name: smahamud3
+    Linux system name: smahamud3-OPS445
+    Python executable: /usr/bin/python3
+    Python version: 3123
+    OS Platform: linux
+    Working Directory: /home/smahamud3/ops445/lab4/lab-4-smahamud3
+    Start at: Fri Oct  4 19:35:46 2024
+=================================================================
